@@ -70,3 +70,4 @@ public class CheckDigits {
     } //end getSmallest  
     
 } //end class CheckDigits
+
