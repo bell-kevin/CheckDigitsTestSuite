@@ -33,15 +33,18 @@ public class CheckDigits {
                 "Smallest: ", getSmallest(num1, num2, num3, num4));
     } //end main
     
-    public static double getTotal(double num1, double num2, double num3, double num4) {
+    public static double getTotal(double num1, double num2, 
+            double num3, double num4) {
         return num1 + num2 + num3 + num4;
     } //end getTotal
     
-    public static double getAverage(double num1, double num2, double num3, double num4) {
+    public static double getAverage(double num1, double num2, 
+            double num3, double num4) {
         return (num1 + num2 + num3 + num4) / 4;  
     } //end getAverage
     
-    public static double getLargest(double num1, double num2, double num3, double num4) {
+    public static double getLargest(double num1, double num2, 
+            double num3, double num4) {
         double largest = num1;
         if (num2 > largest) {
             largest = num2;
@@ -55,7 +58,8 @@ public class CheckDigits {
         return largest;
     } //end getLargest 
     
-      public static double getSmallest(double num1, double num2, double num3, double num4) {
+      public static double getSmallest(double num1, double num2, 
+              double num3, double num4) {
         double smallest = num1;
         if (num2 < smallest) {
             smallest = num2;
