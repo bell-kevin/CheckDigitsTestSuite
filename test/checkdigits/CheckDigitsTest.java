@@ -4,10 +4,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.Parameters; // this line of code is not actually used by the program
 import java.util.Arrays;
 import java.util.Collection;
-import static org.junit.runners.Parameterized.*;
+import static org.junit.runners.Parameterized.*; // this line of code is not actually used by the program
 
 @RunWith(Parameterized.class)
 public class CheckDigitsTest {
@@ -65,6 +65,5 @@ public class CheckDigitsTest {
         double expResult = smallest;
         double result = CheckDigits.getSmallest(num1, num2, num3, num4);
         assertEquals(expResult, result, 0.001);
-    } //end testGetSmallest
-    
+    } //end testGetSmallest 
 } //end class CheckDigitsTest
