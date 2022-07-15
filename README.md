@@ -13,7 +13,7 @@ The table of test cases will be large, at least 40 cases (at least 10 for each o
 
 How do you determine the expected value in the tests? One way to test that is to perform the appropriate logic in the test; another way is to put the answer into the data set the runner will use. For total and average, it is easy to code the appropriate logic in the test; for largest and smallest, that is doable but repeats code which doesn't truly test if that code is correct. In this project, do the math for total and average within the test method. For largest and smallest, determine the correct result in the test cases and include those values to the data in the test runner.  You will need 6 values to test the largest and smallest values: the 4 input values and the 2 answers for largest and smallest.
 
-Run the test file with all tests in it, and take a screenshot of the successful results. Take screenshots of the code for each method being tested, and the code of the tests. 
+Run the test file with all tests in it, and take a screenshot of the successful results. Take screenshots of the code for each method being tested, and the code of the tests 
 
 Submission: specified screenshots and the root folder for the project
 
